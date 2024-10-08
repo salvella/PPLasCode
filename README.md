@@ -35,3 +35,7 @@ Key assets in the code:
 * Model used is gpt-4o but is an easy to change parameter
 * Prompts used
 * Simplified BPEL schema definition
+
+Todo:
+
+* Cleanup the code - take out extraneous pieces of code
