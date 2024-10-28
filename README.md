@@ -36,6 +36,11 @@ Key assets in the code:
 * Prompts used
 * Simplified BPEL schema definition
 
-Todo:
+**PPLContent.py**
 
-* Cleanup the code - take out extraneous pieces of code
+Python code to execute procedure creation and execution. The steps demonstrated here are:
+
+* Prompt to create content. In this case it is the technology strategy for a large bank and a number of roles are specified as needed to execute the task.
+* Procedure is converted into BPEL code. The BPEL code is verified against the schema provided.
+* The BPEL code is executed. Since this flow does not require human input the BPEL interpreter can execute the complete flow.
+
